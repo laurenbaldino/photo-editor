@@ -94,12 +94,15 @@ function App() {
     })
     return{filter: filters.join(' ')} 
   }
+  console.log(getImageStyle)
+
   return (
     <div className='container'>
-      <div className='main image' style={getImageStyle()}/> 
+      <div className='main-image' style={getImageStyle()}/> 
       <div className='sidebar'>
         {options.map((option, index) =>{
-          return(<SidebarItem
+          return(
+          <SidebarItem
           key={index}
           name={option.name}
           active={index === selectedOptionIndex}

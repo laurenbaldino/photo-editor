@@ -15,7 +15,7 @@ body{
 		"slider sidebar";
 	height: 100vh;
 	width: 100vh;
-	background-color: #DADADA;
+	background-color: #B5C4E0;
 }
 
 .main-image{
@@ -30,8 +30,8 @@ body{
 
 .sidebar{
 	grid-area: sidebar;
-	background-color: hsl(265,100,86);
-	border-left: hsl(265, 100, 56);
+	background-color: #B5C4E0;
+	border-left: 1px solid (265, 100, 56);
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
@@ -41,7 +41,7 @@ body{
 	cursor: pointer;
 	border: none;
 	outline: none;
-	background-color: hsl(265, 100, 86);
+	background-color:#B5C4E0;
 	padding: 1rem;
 	position: relative;
 	transition: background-color 150ms;
@@ -50,7 +50,7 @@ body{
 	background-color:hsl(265, 100, 76);
 }
 .sidebar-item.active{
-	background-color: hsl(265, 100, 70);
+	background-color: #8C98AD;
 }
 
 .sidebar-item::after{
